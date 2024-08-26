@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.form .input {
+    background-color: #333;
+    padding: 0.4rem 2rem;
+    width: 100%;
+    border-radius: 0.6rem;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #ccc;
+}
+
+.form .button {
+    background-color: #13AA52;
+    color: #CCC;
+    border: 0;
+    width: 40%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 0.6rem;
+}
+
+
+@media (max-width: 960px){
+    .form .button {
+        width: 35%;
+        padding: 0.5rem 0.7rem;
+        font-size: 1rem;
+    }
+
+    .form .input {
+        font-size: 1rem;
+    }
+}

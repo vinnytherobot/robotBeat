@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 2rem 2rem;
+}
+
+.navbar a {
+    color: #CCC;
+    font-weight: 600;
+}

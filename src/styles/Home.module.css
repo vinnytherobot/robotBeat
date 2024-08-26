@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem 8rem;
+}
+
+
+@media (max-width: 960px){
+    .container {
+        padding: 1rem 2rem;
+    }
+}
