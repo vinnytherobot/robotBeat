@@ -17,8 +17,8 @@ export default function Musics() {
 
     return (
         <main className={styles.container}>
-            {playlist.map((item: string) => (
-                <iframe className={styles.music} src={item}></iframe>
+            {playlist.map((item: string, key) => (
+                <iframe className={styles.music} src={item} key={key}></iframe>
             ))}
 
             {playlist.length === 0 && <h1 className={styles.message}>No musics found.</h1>}
